@@ -1,0 +1,29 @@
+  :root{
+    --primary:#00838f;
+    --primaryDark:#4fb3bf;
+    --primaryLight:#005662;
+  }
+.name, .projects, .activities{
+  background-color: var(--primary);
+  font-family: "cooper black";
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle{
+  font-family: "monotype corsiva";
+}
+.introImage img{
+  width: 200px;
+  height: 200px;
+}
+.marjor, .department{
+  text-align: center;
+  display:block;
+}
+/*-- footer --*/
+.footer{
+  background-color: var(--primaryDark);
+}
